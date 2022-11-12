@@ -8,8 +8,8 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <h1>Hello this is website for bot</h1>
-      <button onClick={onToggleButton}>toggle</button>
+      <h1>Hello </h1>
+      <button onClick={onToggleButton}>Toggle</button>
     </div>
   );
 }
