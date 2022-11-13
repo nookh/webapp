@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../Button/Button";
-import "./components/Header/Header.css";
+import "../Header/Header.css";
 // import { useEffect } from "react";
 import { useTelegram } from "../hooks/useTelegram";
 
