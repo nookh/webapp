@@ -2,7 +2,7 @@ import "./App.css";
 import { useEffect } from "react";
 import Form from "./components/Form/Form";
 import Header from "./components/Header/Header";
-import { useTelegram } from "./components/hooks/useTelegram";
+import { useTelegram } from "./hooks/useTelegram";
 import ProductList from "./components/ProductList/ProductList";
 import { Route, Routes } from "react-router-dom";
 
