@@ -7,7 +7,7 @@ import ProductList from "./components/ProductList/ProductList";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
-  const { tg } = useTelegram();
+  const { tg, onToggleButton } = useTelegram();
 
   useEffect(() => {
     tg.ready();
